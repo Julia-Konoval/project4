@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /* display: flex;
+  flex-direction: row; */
+  width: 70%;
+}
+.span-element {
+  justify-content: space-around;
+  background-color: grey;
+}
+
+#page-navigation {
+  /* width: 150px;
+  float: left; */
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+section .main-section {
+  /* width: 500; */
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
