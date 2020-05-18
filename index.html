@@ -96,6 +96,7 @@
           Server-side JavaScript extends the core language by supplying objects
           relevant to running JavaScript on a server.
         </p>
+
         <p>
           For example, server-side extensions allow an application to
           communicate with a database, provide continuity of information from
@@ -277,12 +278,14 @@
       <section class="main-section">
         <a name="Constants"></a>
         <header><h1>Constants</h1></header>
-        <p></p>
-        You can create a read-only, named constant with the const keyword. The
-        syntax of a constant identifier is the same as for a variable
-        identifier: it must start with a letter, underscore or dollar sign and
-        can contain alphabetic, numeric, or underscore characters. const PI =
-        3.14;
+        <p>
+          You can create a read-only, named constant with the const keyword. The
+          syntax of a constant identifier is the same as for a variable
+          identifier: it must start with a letter, underscore or dollar sign and
+          can contain alphabetic, numeric, or underscore characters. const PI =
+          3.14;
+        </p>
+
         <p>
           A constant cannot change value through assignment or be re-declared
           while the script is running. It has to be initialized to a value.
@@ -314,24 +317,24 @@
         <p>The latest ECMAScript standard defines seven data types:</p>
 
         <h2>Six data types that are primitives:</h2>
+        <span class="span-element">
+          <p>Boolean. true and false.</p>
+          <p>null.</p>
+          <p>A special keyword denoting a null value.</p>
+          <p>
+            Because JavaScript is case-sensitive, null is not the same as Null,
+          </p>
+          <p>NULL, or any other variant.</p>
 
-        <p>Boolean. true and false.</p>
-        <p>null.</p>
-        <p>A special keyword denoting a null value.</p>
-        <p>
-          Because JavaScript is case-sensitive, null is not the same as Null,
-        </p>
-        <p>NULL, or any other variant.</p>
-
-        <p>undefined. A top-level property whose value is undefined.</p>
-        <p>Number. 42 or 3.14159.</p>
-        <p>String. "Howdy"</p>
-        <p>
-          Symbol (new in ECMAScript 2015). A data type whose instances are
-          unique and immutable.
-        </p>
-        <p>and Object</p>
-
+          <p>undefined. A top-level property whose value is undefined.</p>
+          <p>Number. 42 or 3.14159.</p>
+          <p>String. "Howdy"</p>
+          <p>
+            Symbol (new in ECMAScript 2015). A data type whose instances are
+            unique and immutable.
+          </p>
+          <p>and Object</p>
+        </span>
         <p>
           Although these data types are a relatively small amount, they enable
           you to perform useful functions with your applications. Objects and
